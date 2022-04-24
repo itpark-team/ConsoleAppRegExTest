@@ -16,7 +16,7 @@ namespace ConsoleAppRegExTest
 
             Console.WriteLine(text);
 
-            Regex regex = new Regex(@"[0-9]");
+            Regex regex = new Regex(@"89[0-9]{2}f[0-9]{6}");
             MatchCollection matches = regex.Matches(text);
 
             for(int i = 0; i < matches.Count; i++)

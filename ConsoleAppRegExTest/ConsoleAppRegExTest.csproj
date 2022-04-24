@@ -54,6 +54,7 @@
     <Content Include="bin\Debug\ConsoleAppRegExTest.exe" />
     <Content Include="bin\Debug\ConsoleAppRegExTest.pdb" />
     <Content Include="bin\Debug\input.txt" />
+    <Content Include="input.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
